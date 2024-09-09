@@ -1,0 +1,20 @@
+#Copy the whole folder(Fbx_Exporter) to desired location 
+# Change this file path in the below location, point it to the Fbx_Exporter location and copy and run the whole script inside Maya python script editor
+# Change the file path
+import sys 
+import importlib
+# Change this file path in the below location, point it to the Fbx_Exporter location and run the whole script.
+sys.path.append('C:/Users/LS0946/Desktop/MMO/fbx/Fbx_Exporter')# Change this file path
+import fbx_exporter
+try:
+    reload(fbx_exporter)
+except:
+    importlib.reload(fbx_exporter)
+    
+try:
+    UI.close()
+except:
+    pass
+
+UI=fbx_exporter.Fbx_Translator()
+UI.show()

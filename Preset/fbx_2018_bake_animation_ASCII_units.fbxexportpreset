@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Export UID="0" UIG="1" UIH="0" UIP="0" UIX="0" lbENU="Export">
+  <PlugInGrp UID="0" UIG="1" UIH="1" UIP="0" UIX="0" lbENU="Plugin Information">
+    <PlugInUIWidth UID="0" UIG="0" UIH="1" dt="Integer" lbENU="Plugin UI Width" v="500" />
+    <PlugInUIHeight UID="0" UIG="0" UIH="1" dt="Integer" lbENU="Plugin UI Height" v="500" />
+    <PlugInUIXpos UID="0" UIG="0" UIH="1" dt="Integer" lbENU="Plugin UI X Position" v="100" />
+    <PlugInUIYpos UID="0" UIG="0" UIH="1" dt="Integer" lbENU="Plugin UI Y Position" v="100" />
+    <UILIndex UID="0" UIG="0" UIH="1" dt="Enum" enumItem_0="ENU" enumItem_1="DEU" enumItem_2="FRA" enumItem_3="JPN" enumItem_4="KOR" enumItem_5="CHS" enumItem_6="PTB" enumSelected="ENU" lbENU="UI language" v="0" />
+    <PluginProductFamily UID="0" UIG="0" UIH="0" dt="KString" lbENU="Plugin product family" v="Maya  ( API cut number: 20220400 )" />
+    <PresetSelected UID="0" UIG="0" UIH="1" dt="KString" lbENU="Preset Selected" v="C:\Users\LS0946\Documents\maya\FBX\Presets\2020.2.3\export\User defined.fbxexportpreset" />
+  </PlugInGrp>
+  <PresetsGrp UID="0" UIG="1" UIH="0" UIP="1" UIX="0" lbENU="Presets">
+    <Presets UID="0" UIG="0" UIH="0" dt="Presets" lbENU="Current Preset" />
+  </PresetsGrp>
+  <StatisticsGrp UID="0" UIG="1" UIH="1" UIP="0" UIX="1" lbENU="Statistics">
+    <Statistics UID="0" UIG="0" UIH="0" dt="Statistics" lbENU="Statistics" />
+  </StatisticsGrp>
+  <IncludeGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Include">
+    <Geometry UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Geometry">
+      <SmoothingGroups UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Smoothing Groups" v="0" />
+      <expHardEdges UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Split per-vertex Normals" v="0" />
+      <TangentsandBinormals UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Tangents and Binormals" v="0" />
+      <SmoothMesh UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Smooth Mesh" v="0" />
+      <SelectionSet UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Selection Sets" v="0" />
+      <BlindData UIBG="0" UID="0" UIG="0" UIH="1" dt="Bool" lbENU="Blind Data" v="1" />
+      <AnimationOnly UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Convert to Null objects" v="0" />
+      <Instances UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Preserve Instances" v="0" />
+      <ContainerObjects UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Referenced Assets Content" v="0" />
+      <Triangulate UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Triangulate" v="0" />
+      <GeometryNurbsSurfaceAs UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0="NURBS" enumItem_1="Interactive Display Mesh" enumItem_2="Software Render Mesh" enumSelected="NURBS" lbENU="Convert NURBS surface to" v="0" />
+    </Geometry>
+    <Animation UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Animation" v="1">
+      <ExtraGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Extra Options">
+        <UseSceneName UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Use scene name" v="0" />
+        <RemoveSingleKey UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Remove single key" v="0" />
+        <Quaternion UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0="Retain Quaternion Interpolation" enumItem_1="Set As Euler Interpolation" enumItem_2="Resample As Euler Interpolation" enumSelected="Resample As Euler Interpolation" lbENU="Quaternion Interpolation Mode" v="2" />
+      </ExtraGrp>
+      <BakeComplexAnimation UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Bake Animation" v="1">
+        <BakeFrameStart UID="0" UIG="0" UIH="0" dt="Integer" lbENU="Start" v="1" />
+        <BakeFrameEnd UID="0" UIG="0" UIH="0" dt="Integer" lbENU="End" v="120" />
+        <BakeFrameStep UID="0" UIG="0" UIH="0" dt="Integer" lbENU="Step" v="1" />
+        <ResampleAnimationCurves UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Resample All" v="0" />
+        <HideComplexAnimationBakedWarning UIBG="0" UID="0" UIG="0" UIH="1" dt="Bool" lbENU="Hide Complex Animation Baked Warning" v="0" />
+      </BakeComplexAnimation>
+      <Deformation UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Deformations" v="0">
+        <Skins UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Skins" v="0" />
+        <Shape UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Blend Shapes" v="0" />
+        <ShapeAttributes UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Blend Shape Options" v="0">
+          <ShapeAttributesValues UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0="Relative" enumItem_1="Absolute" enumSelected="Relative" lbENU="Attribute Values" v="0" />
+        </ShapeAttributes>
+      </Deformation>
+      <CurveFilter UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Curve Filters" v="0">
+        <CurveFilterApplyCstKeyRed UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Constant Key Reducer" v="0">
+          <CurveFilterCstKeyRedTPrec UID="0" UIG="0" UIH="0" dt="Number" lbENU="Translation Precision" max="1" min="0" v="0.0001" />
+          <CurveFilterCstKeyRedRPrec UID="0" UIG="0" UIH="0" dt="Number" lbENU="Rotation Precision" max="1" min="0" v="0.009" />
+          <CurveFilterCstKeyRedSPrec UID="0" UIG="0" UIH="0" dt="Number" lbENU="Scaling Precision" max="1" min="0" v="0.004" />
+          <CurveFilterCstKeyRedOPrec UID="0" UIG="0" UIH="0" dt="Number" lbENU="Other Precision" max="1" min="0" v="0.009" />
+          <AutoTangentsOnly UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Auto tangents only" v="1" />
+        </CurveFilterApplyCstKeyRed>
+      </CurveFilter>
+      <PointCache UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Geometry Cache File(s)" v="0">
+        <SelectionSetNameAsPointCache UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0=" " enumItem_1="defaultLightSet" enumItem_10="slingshooter_rig:cluster5Set" enumItem_11="slingshooter_rig:cluster6Set" enumItem_12="slingshooter_rig:cluster7Set" enumItem_13="slingshooter_rig:cluster8Set" enumItem_14="slingshooter_rig:cluster9Set" enumItem_15="slingshooter_rig:cluster10Set" enumItem_16="slingshooter_rig:cluster11Set" enumItem_17="slingshooter_rig:cluster12Set" enumItem_18="slingshooter_rig:cluster13Set" enumItem_19="slingshooter_rig:cluster14Set" enumItem_2="defaultObjectSet" enumItem_20="slingshooter_rig:cluster15Set" enumItem_21="slingshooter_rig:cluster16Set" enumItem_22="slingshooter_rig:skinCluster21Set" enumItem_23="slingshooter_rig:skinCluster28Set" enumItem_24="slingshooter_rig:skinCluster29Set" enumItem_25="slingshooter_rig:skinCluster30Set" enumItem_26="slingshooter_rig:tweakSet1" enumItem_27="slingshooter_rig:tweakSet2" enumItem_28="slingshooter_rig:tweakSet3" enumItem_29="slingshooter_rig:tweakSet4" enumItem_3="slingshooter_rig:L_yoyo_v2_geoShape_skinClusterSet" enumItem_30="slingshooter_rig:tweakSet5" enumItem_31="slingshooter_rig:tweakSet6" enumItem_32="slingshooter_rig:tweakSet27" enumItem_33="slingshooter_rig:tweakSet34" enumItem_34="slingshooter_rig:tweakSet35" enumItem_35="slingshooter_rig:tweakSet36" enumItem_36="slingshooter_rig:tweakSet49" enumItem_37="slingshooter_rig:tweakSet50" enumItem_4="slingshooter_rig:R_yoyo_v2_geoShape_skinClusterSet" enumItem_5="slingshooter_rig:bakeJoints" enumItem_6="slingshooter_rig:cluster1Set" enumItem_7="slingshooter_rig:cluster2Set" enumItem_8="slingshooter_rig:cluster3Set" enumItem_9="slingshooter_rig:cluster4Set" enumSelected=" " lbENU="Set" v="0" />
+      </PointCache>
+      <ConstraintsGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Constraints">
+        <Constraint UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Constraints" v="0" />
+        <Character UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Skeleton Definitions" v="0" />
+      </ConstraintsGrp>
+    </Animation>
+    <CameraGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Cameras">
+      <Camera UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Cameras" v="0" />
+    </CameraGrp>
+    <LightGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Lights">
+      <Light UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Lights" v="0" />
+    </LightGrp>
+    <Audio UIBG="1" UID="0" UIG="0" UIH="0" UIX="1" dt="Bool" lbENU="Audio" v="0" />
+    <EmbedTextureGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Embed Media">
+      <EmbedTexture UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Embed Media" v="0" />
+    </EmbedTextureGrp>
+    <BindPose UIBG="0" UID="0" UIG="0" UIH="1" dt="Bool" lbENU="Bind Pose" v="1" />
+    <PivotToNulls UIBG="0" UID="0" UIG="0" UIH="1" dt="Bool" lbENU="Pivot To Null" v="0" />
+    <BypassRrsInheritance UIBG="0" UID="0" UIG="0" UIH="1" dt="Bool" lbENU="Bypass Rrs Inheritance" v="0" />
+    <InputConnectionsGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Connections">
+      <IncludeChildren UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Include Children" v="0" />
+      <InputConnections UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Input Connections" v="0" />
+    </InputConnectionsGrp>
+  </IncludeGrp>
+  <AdvOptGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Advanced Options">
+    <UnitsGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Units">
+      <TotalUnitsScale UID="0" UIG="0" UIH="0" dt="TextLine" lbENU="Total Units Scale" />
+      <DynamicScaleConversion UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Automatic" v="1" />
+      <UnitsSelector UID="1" UIG="0" UIH="0" dt="Enum" enumItem_0="Millimeters" enumItem_1="Centimeters" enumItem_2="Decimeters" enumItem_3="Meters" enumItem_4="Kilometers" enumItem_5="Inches" enumItem_6="Feet" enumItem_7="Yards" enumItem_8="Miles" enumSelected="Meters" lbENU="Scene units converted to" v="3" />
+    </UnitsGrp>
+    <AxisConvGrp UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="Axis Conversion">
+      <UpAxis UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0="Y" enumItem_1="Z" enumSelected="Y" lbENU="Up Axis" v="0" />
+    </AxisConvGrp>
+    <UI UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="UI">
+      <ShowWarningsManager UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Show Warning Manager" v="1" />
+      <GenerateLogData UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Generate Log Data" v="1" />
+      <PluginVersionsURL UID="0" UIG="0" UIH="1" dt="KString" lbENU="Plugin Versions URL" v="http://download.autodesk.com/us/fbx/versions/fbxversion.xml" />
+    </UI>
+    <Fbx UID="0" UIG="1" UIH="0" UIP="0" UIX="1" lbENU="FBX File Format">
+      <AsciiFbx UID="0" UIG="0" UIH="0" dt="Enum" enumItem_0="Binary" enumItem_1="ASCII" enumSelected="ASCII" lbENU="Type" v="1" />
+      <ExportFileVersion UID="0" UIG="0" UIH="0" dt="Alias" enumItem_0="FBX202000" enumItem_1="FBX201900" enumItem_10="FBX200611" enumItem_2="FBX201800" enumItem_3="FBX201600" enumItem_4="FBX201400" enumItem_5="FBX201300" enumItem_6="FBX201200" enumItem_7="FBX201100" enumItem_8="FBX201000" enumItem_9="FBX200900" enumSelected="FBX201800" lbENU="Version" v="2" />
+    </Fbx>
+    <Dxf UID="0" UIG="1" UIH="1" UIP="0" UIX="0" lbENU="Dxf">
+      <Deformation UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Deformed Models" v="1" />
+      <Triangulate UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Triangulate" v="1" />
+    </Dxf>
+    <Collada UID="0" UIG="1" UIH="1" UIP="0" UIX="0" lbENU="Collada">
+      <Triangulate UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Triangulate" v="1" />
+      <SingleMatrix UIBG="0" UID="0" UIG="0" UIH="0" dt="Bool" lbENU="Single Matrix" v="1" />
+      <FrameRate UID="0" UIG="0" UIH="0" dt="Number" lbENU="Frame Rate" v="50" />
+    </Collada>
+  </AdvOptGrp>
+  <FBXExtentionsSDK UID="0" UIG="1" UIH="1" UIP="1" UIX="0" lbENU="FBX Extensions SDK">
+    <FBXExtentionsSDKWarning UID="0" UIG="0" UIH="0" dt="Warning" lbENU="FBX Extensions SDK Warning" v="Add your custom properties here" />
+  </FBXExtentionsSDK>
+</Export>
